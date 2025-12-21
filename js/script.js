@@ -16,9 +16,9 @@ console.log("Rent: 9500 Food: 1500 <br/> Others: 1500") //break tag doesn't work
 
 
 // variable
-let firstName = "Afia"
-let lastName = "Rahman"
-document.write(firstName + " " + lastName)
+// let firstName = "Afia"
+// let lastName = "Rahman"
+// document.write(firstName + " " + lastName)
 
 // Budget tracker (Phase 2)
 let income, budget; //at the moment value is undefined

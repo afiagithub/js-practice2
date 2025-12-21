@@ -29,3 +29,23 @@ budget = 12500
 console.log(userName);
 console.log("Income:",income);
 console.log("Budget:",budget);
+
+// number method
+let num = 2025
+console.log(typeof(num));
+
+// to convert to string type
+num = toString(num);
+console.log(typeof(num));
+
+// to convert to interger
+let intNum = parseInt(2025.25)
+console.log(intNum);
+
+// to convert to float
+let fltNum = parseFloat("2025.25")
+console.log(fltNum);
+
+// toFixed
+num = 2.3698
+console.log(num.toFixed(2));

@@ -18,4 +18,4 @@ let str1 = "My name is "
 document.write(str1.concat(firstName))
 
 // slice method
-document.write(str1.slice(0, 5))
+console.log(str1.slice(0, 5))

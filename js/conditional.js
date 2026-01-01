@@ -21,3 +21,20 @@ else if(mark>=33 && mark<40){
 else{
     console.log("F");    
 }
+
+let number1 = 5, number2 = 10, number3 = 8;
+
+if(number1 > number2 && number1>number3)
+    console.log("Largest number", number1);
+else if(number2 > number1 && number2 > number3)
+    console.log("Largest number", number2);
+else
+    console.log("Largest number", number3);
+
+let letter1 = 'E';
+letter1 = letter1.toLowerCase();
+
+if(letter1 == 'a' || letter1 == 'e' || letter1 == 'i' || letter1 == 'o' || letter1 == 'u')
+    console.log("Vowel");
+else
+    console.log("Consonent");        

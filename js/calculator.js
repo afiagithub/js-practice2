@@ -33,8 +33,20 @@ console.log(cel.toFixed(2));
 
 // Budget tracker app (Phase 3)
 let income1 = 10000, budget1 = 5600;
+if(budget1 > income){
+    console.log("Warning");    
+}
 let balance, savings, tax;
 tax = income1*(10/100);
 balance = income1 - (tax + budget1)
 savings = balance*(20/100)
 console.log(`Balace is ${balance}, Savings is ${savings}`);
+
+if(savings > 1000)
+    console.log("Excellent");
+else if(savings>=500 && savings<=999)
+    console.log("Good");
+else
+    console.log("Needs Improvement");
+
+               

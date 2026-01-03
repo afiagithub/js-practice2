@@ -22,7 +22,7 @@ else{
     console.log("F");    
 }
 
-let number1 = 5, number2 = 10, number3 = 8;
+let number1 = -5, number2 = 10, number3 = 8;
 
 if(number1 > number2 && number1>number3)
     console.log("Largest number", number1);
@@ -37,4 +37,6 @@ letter1 = letter1.toLowerCase();
 if(letter1 == 'a' || letter1 == 'e' || letter1 == 'i' || letter1 == 'o' || letter1 == 'u')
     console.log("Vowel");
 else
-    console.log("Consonent");        
+    console.log("Consonent"); 
+
+number1 > 0 ? console.log("positive"): console.log("negative");

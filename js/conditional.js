@@ -22,7 +22,7 @@ else{
     console.log("F");    
 }
 
-let number1 = -5, number2 = 10, number3 = 8;
+let number1 = 0, number2 = 10, number3 = 8;
 
 if(number1 > number2 && number1>number3)
     console.log("Largest number", number1);
@@ -39,4 +39,26 @@ if(letter1 == 'a' || letter1 == 'e' || letter1 == 'i' || letter1 == 'o' || lette
 else
     console.log("Consonent"); 
 
-number1 > 0 ? console.log("positive"): console.log("negative");
+// number1 > 0 ? console.log("positive"): console.log("negative");
+
+number1 > 0 ? console.log("positive") : number1 < 0 ? console.log("negative") : console.log("zero");
+
+switch(letter1){
+    case "a":
+        console.log("Vowel");
+        break;
+    case "e":
+        console.log("Vowel");
+        break;
+    case "i":
+        console.log("Vowel");
+        break;
+    case "o":
+        console.log("Vowel");
+        break;
+    case "u":
+        console.log("Vowel");
+        break;
+    default:
+        console.log("Consonent");                
+}

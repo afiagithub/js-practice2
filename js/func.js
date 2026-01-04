@@ -10,3 +10,10 @@ console.log(addRes);
 (function disMsg(msg){
     console.log(msg);    
 })("Hello")
+
+// Function Expression
+const display2 = function displayMsg(msg){
+    console.log(msg);    
+}
+
+display2('Hello World')

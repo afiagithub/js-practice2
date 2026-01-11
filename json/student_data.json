@@ -1,0 +1,25 @@
+{
+    "students": [
+        {
+            "name": "Afia",
+            "age": 25,
+            "cgpa": 3.97,
+            "isRegistered": true,
+            "lang": [
+                "English",
+                "Bangla",
+                "Japanese"
+            ]
+        },
+        {
+            "name": "Nina",
+            "age": 27,
+            "cgpa": 3.52,
+            "isRegistered": false,
+            "lang": [
+                "English",
+                "Bangla"
+            ]
+        }
+    ]
+}

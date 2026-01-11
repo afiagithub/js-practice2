@@ -30,12 +30,25 @@ let std2 = new Student("Ema",21,4.85,["Bangla", "English", "Latin"])
 std1.display();
 
 // Math objects
-console.log(Math.sqrt(25));
-console.log(Math.abs(-9));
-console.log(Math.sin(1));
-console.log(Math.floor(2.91));
-console.log(Math.ceil(5.23));
-console.log(Math.round(4.23)); // lower than .5 then the lower value rounded 
-console.log(Math.round(4.66)); // higher or equal .5 then the higher value rounded
-console.log(Math.max(-66, 90, 12));
-console.log(Math.round(Math.random()*5)); // generate round number then make it integer
+// console.log(Math.sqrt(25));
+// console.log(Math.abs(-9));
+// console.log(Math.sin(1));
+// console.log(Math.floor(2.91));
+// console.log(Math.ceil(5.23));
+// console.log(Math.round(4.23)); // lower than .5 then the lower value rounded 
+// console.log(Math.round(4.66)); // higher or equal .5 then the higher value rounded
+// console.log(Math.max(-66, 90, 12));
+// console.log(Math.floor(Math.random())); // generate round number then make it integer
+
+
+// Guessing Game
+let guessNum = parseInt(prompt("Enter a number between 1 & 100: "))
+if(isNaN(guessNum) || guessNum<0){
+    console.log("Enter Proper Number");    
+}
+
+let correctNum = Math.floor(Math.random()*100 + 1)
+if(correctNum === guessNum)
+    console.log("Guessed Right!!!!");
+else
+    console.log(correctNum);    

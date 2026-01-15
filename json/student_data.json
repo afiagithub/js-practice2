@@ -9,6 +9,16 @@
                 "English",
                 "Bangla",
                 "Japanese"
+            ],
+            "friends": [
+                {
+                    "name": "Anar",
+                    "age": 35
+                },
+                {
+                    "name": "Liam",
+                    "age": 28
+                }
             ]
         },
         {
@@ -18,7 +28,17 @@
             "isRegistered": false,
             "lang": [
                 "English",
-                "Bangla"                
+                "Bangla"
+            ],
+            "friends": [
+                {
+                    "name": "Anar",
+                    "age": 35
+                },
+                {
+                    "name": "Liam",
+                    "age": 28
+                }
             ]
         }
     ]

@@ -17,3 +17,6 @@ console.log(userName, countryList);
 
 localStorage.removeItem("Age")
 localStorage.clear()
+
+sessionStorage.setItem("userName", "Afia Rahman")
+sessionStorage.setItem("password", "12345")
